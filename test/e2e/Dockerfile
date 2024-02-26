@@ -1,4 +1,4 @@
-FROM cypress/base:20.10.0@sha256:ab02591843fde5f5669d5d98284a087ad3f10466d99554204a8334366ed817a0
+FROM cypress/base:20.11.0@sha256:3057ac15e8a258e4c7cb3e670d029037d7222e80440704ee3c0fa451c8a67cec
 
 WORKDIR /e2e
 COPY package.json /e2e/package.json
